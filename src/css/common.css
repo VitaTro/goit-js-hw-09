@@ -16,4 +16,27 @@
     display: block;
     max-width: 100%;
   }
+  #datetime-picker {
+    width: 250px;
+  }
   
+  .timer {
+    display: flex;
+    margin-top: 20px;
+    gap: 15px;
+  }
+  
+  .field {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .value {
+    font-size: 48px;
+    line-height: 1em;
+  }
+  
+  .label {
+    text-transform: uppercase;
+  }
