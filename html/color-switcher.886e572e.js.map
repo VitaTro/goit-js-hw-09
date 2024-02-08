@@ -1,1 +1,0 @@
-{"mappings":"AAAA,SAASA,oBACL,MAAO,IAAsDC,OAAlDC,KAAKC,MAAsB,SAAhBD,KAAKE,UAAqBC,SAAS,I","sources":["src/js/color-switcher.js"],"sourcesContent":["function getRandomHexColor() {\n    return `#${Math.floor(Math.random() * 16777215).toString(16)}`;\n  }"],"names":["getRandomHexColor","concat","Math","floor","random","toString"],"version":3,"file":"color-switcher.886e572e.js.map"}
