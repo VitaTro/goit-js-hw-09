@@ -1,5 +1,6 @@
 import Notiflix from 'notiflix';
 
+
 const firstDelay = document.querySelector('input[name="delay"]');
 const stepDelay = document.querySelector('input[name="step"]');
 const amount = document.querySelector('input[name="amount"]');
