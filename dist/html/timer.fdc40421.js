@@ -581,7 +581,7 @@ const countDownTime = (time)=>{
 };
 // запускається бібліотека, при натисканні на кнопку лічильник розпочинає відлік
 // старт також вимикається для уникнення подвійного запуску
-const flatpickr = (0, _flatpickrDefault.default)("#datetime-picker", options);
+const flatp = (0, _flatpickrDefault.default)("#datetime-picker", options);
 buttonStart.addEventListener("click", ()=>{
     countDownTime(timeRemaining);
     buttonStart.setAttribute("disabled", "");

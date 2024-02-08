@@ -88,7 +88,7 @@ if(time - 1000 > 0) {
     // запускається бібліотека, при натисканні на кнопку лічильник розпочинає відлік
 // старт також вимикається для уникнення подвійного запуску
 
-    const flatpickr = flatpickr('#datetime-picker', options);
+    const flatp = flatpickr('#datetime-picker', options);
     buttonStart.addEventListener('click', () => {
         countDownTime(timeRemaining);
         buttonStart.setAttribute('disabled', '');
