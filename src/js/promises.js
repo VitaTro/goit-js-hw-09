@@ -44,6 +44,7 @@ return new Promise((resolve, reject) => {
     // якщо значення true, то resolve
 // якщо значення false, то reject  
   
+
 setTimeout(() => {
     if (shouldResolve) {
 resolve({ position, delay});
